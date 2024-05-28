@@ -1,0 +1,5 @@
+SWI-PROLOG - version: 8.4.2
+Python - Version: 3.12.3
+customtkinter - Version: 5.2.2
+tkintermapview - Version: 1.29
+pyswip - Version: 0.2.11
