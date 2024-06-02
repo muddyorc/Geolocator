@@ -1,5 +1,3 @@
-% tourist_spots.pl
-% Base de dados de pontos turísticos
 tourist_spot('Brasil', 'Cristo Redentor', 'paisagem').
 tourist_spot('Brasil', 'Museu Oscar Niemeyer', 'historico').
 tourist_spot('Brasil', 'Teatro Amazonas', 'historico').
@@ -28,7 +26,6 @@ tourist_spot('Mexico', 'Teotihuacan', 'historico').
 tourist_spot('Mexico', 'Ilha das Mulheres', 'paisagem').
 tourist_spot('India', 'Templo de Lotus', 'historico').
 
-% Recomendação baseada em país e tipo de ponto turístico
 recommend_tourist_spot(Country, Type, TouristSpot) :-
     tourist_spot(Country, TouristSpot, Type).
 
