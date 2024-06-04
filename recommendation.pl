@@ -7,7 +7,7 @@ turista_local('Franca', 'Torre Eiffel', 'Historico').
 turista_local('Franca', 'Mont Saint-Michel', 'Paisagem').
 turista_local('Japao', 'Monte Fuji', 'Paisagem').
 turista_local('Japao', 'Palacio Imperial do Japao', 'Historico').
-turista_local('Japão', 'Osaka', 'Historico').
+turista_local('Japao', 'Osaka', 'Historico').
 turista_local('Russia', 'Mae Patria', 'Historico').
 turista_local('Russia', 'Catedral de Sao Basilio', 'Historico').
 turista_local('Russia', 'Moscovo', 'Historico').
