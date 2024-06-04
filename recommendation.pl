@@ -1,32 +1,30 @@
-tourist_spot('Brasil', 'Cristo Redentor', 'paisagem').
-tourist_spot('Brasil', 'Museu Oscar Niemeyer', 'historico').
-tourist_spot('Brasil', 'Teatro Amazonas', 'historico').
-tourist_spot('Brasil', 'Gruta do Lago Azul', 'paisagem').
-tourist_spot('Brasil', 'Escadaria Selaron', 'historico').
-tourist_spot('Franca', 'Torre Eiffel', 'historico').
-tourist_spot('Franca', 'Mont Saint-Michel', 'paisagem').
-tourist_spot('Japao', 'Monte Fuji', 'paisagem').
-tourist_spot('Japao', 'Palacio Imperial do Japao', 'historico').
-tourist_spot('Japao', 'Osaka', 'historico').
-tourist_spot('Russia', 'Mae Patria', 'historico').
-tourist_spot('Russia', 'Catedral de Sao Basilio', 'historico').
-tourist_spot('Russia', 'Moscovo', 'historico').
-tourist_spot('Estados Unidos', 'Estatua da Liberdade', 'historico').
-tourist_spot('Estados Unidos', 'Times Square', 'historico').
-tourist_spot('Estados Unidos', 'Monte Rushmore', 'historico').
-tourist_spot('Estados Unidos', 'Sinal de Hollywood', 'historico').
-tourist_spot('China', 'Muralha da China', 'historico').
-tourist_spot('China', 'Exercito de terracota', 'historico').
-tourist_spot('China', 'Vale Jiuzhaigou', 'paisagem').
-tourist_spot('China', 'Templo do Buda de Jade', 'historico').
-tourist_spot('Australia', 'Zoologico de Taronga', 'paisagem').
-tourist_spot('Australia', 'Museu Australiano', 'historico').
-tourist_spot('Mexico', 'Chichen Itza', 'historico').
-tourist_spot('Mexico', 'Teotihuacan', 'historico').
-tourist_spot('Mexico', 'Ilha das Mulheres', 'paisagem').
-tourist_spot('India', 'Templo de Lotus', 'historico').
+turista_local('Brasil', 'Cristo Redentor', 'Paisagem').
+turista_local('Brasil', 'Museu Oscar Niemeyer', 'Historico').
+turista_local('Brasil', 'Teatro Amazonas', 'Historico').
+turista_local('Brasil', 'Gruta do Lago Azul', 'Paisagem').
+turista_local('Brasil', 'Escadaria Selaron', 'Historico').
+turista_local('Franca', 'Torre Eiffel', 'Historico').
+turista_local('Franca', 'Mont Saint-Michel', 'Paisagem').
+turista_local('Japao', 'Monte Fuji', 'Paisagem').
+turista_local('Japao', 'Palacio Imperial do Japao', 'Historico').
+turista_local('Japão', 'Osaka', 'Historico').
+turista_local('Russia', 'Mae Patria', 'Historico').
+turista_local('Russia', 'Catedral de Sao Basilio', 'Historico').
+turista_local('Russia', 'Moscovo', 'Historico').
+turista_local('Estados Unidos', 'Estatua da Liberdade', 'Paisagem').
+turista_local('Estados Unidos', 'Times Square', 'Historico').
+turista_local('Estados Unidos', 'Monte Rushmore', 'Historico').
+turista_local('Estados Unidos', 'Sinal de Hollywood', 'Historico').
+turista_local('China', 'Muralha da China', 'Historico').
+turista_local('China', 'Exercito de terracota', 'Historico').
+turista_local('China', 'Vale Jiuzhaigou', 'Paisagem').
+turista_local('China', 'Templo do Buda de Jade', 'Historico').
+turista_local('Australia', 'Zoologico de Taronga', 'Paisagem').
+turista_local('Australia', 'Museu Australiano', 'Historico').
+turista_local('Mexico', 'Chichen Itza', 'Historico').
+turista_local('Mexico', 'Teotihuacan', 'Historico').
+turista_local('Mexico', 'Ilha das Mulheres', 'Paisagem').
+turista_local('India', 'Templo de Lotus', 'Historico').
 
-recommend_tourist_spot(Country, Type, TouristSpot) :-
-    tourist_spot(Country, TouristSpot, Type).
-
-
+recomendar_local_turistico(Pais, Tipo, LocalTuristico) :-
+    turista_local(Pais, LocalTuristico, Tipo).
